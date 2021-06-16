@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listeler Dersi</title>
+
+    <style>
+        ul {
+            list-style-type: circle;
+        }
+
+        #olist {
+            list-style: upper-roman;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Sırasız Listeler</h1>
+
+    <ul>
+        Programlama Dilleri
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ul>
+
+    <h1>Sıralı Listeler</h1>
+
+    <ol id="olist">
+        Ön Yüzde Kullanılanlar
+        <li>HTML5</li>
+            <ol reversed start="7" type="A">
+                <li>eski html kodları</li>
+                <li>yeni html kodları</li>
+            </ol>
+        <li>CSS3</li>
+        <li>Bootstrap</li>
+    </ol>
+
+</body>
+
+</html>
